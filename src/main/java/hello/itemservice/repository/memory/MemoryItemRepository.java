@@ -40,6 +40,7 @@ public class MemoryItemRepository implements ItemRepository {
     public List<Item> findAll(ItemSearchCond cond) {
         String itemName = cond.getItemName();
         Integer maxPrice = cond.getMaxPrice();
+
         return store.values().stream()
                 .filter(item -> {
                     if (ObjectUtils.isEmpty(itemName)) {  //itemName 없으면 검색조건 안쓴다

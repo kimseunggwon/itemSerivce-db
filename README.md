@@ -7,5 +7,15 @@
 * Spring Boot 2.6.5
 
 ## 기술 스택
+Spring Boot
 
+
+Spring Data JPA
+Querydsl
+Thymeleaf
+Spring Web
+Lombok
+H2 Database
+MySQL Driver
+JdbcTemplate
 

@@ -22,7 +22,7 @@ public class ItemController {
     private final ItemService itemService;
 
     /**
-     *  테스트용
+     *  테스트
      */
     @GetMapping("/hello")
     public String hello(){
@@ -77,8 +77,9 @@ public class ItemController {
         log.info("컨트롤러 진입");
         itemService.delete(itemId);
         redirectAttributes.addAttribute("status","deleted");
-        return "redirect:/items";
 
+        // redirect : 상품 수정은 마지막에 뷰 템플릿을 호출하는 대신 상품 상세 화면으로 이동
+        return "redirect:/items";
     }
 
     /**  테스트

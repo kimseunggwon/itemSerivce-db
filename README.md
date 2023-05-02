@@ -15,6 +15,7 @@ Spring Boot
 * Thymeleaf
 * Spring Web
 * Lombok
+* Validation
 * H2 Database
 * MySQL Driver
 * JdbcTemplate

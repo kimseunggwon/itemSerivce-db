@@ -10,12 +10,12 @@
 Spring Boot
 
 
-*Spring Data JPA
-*Querydsl
-*Thymeleaf
-*Spring Web
-*Lombok
-*H2 Database
-*MySQL Driver
-*JdbcTemplate
+* Spring Data JPA
+* Querydsl
+* Thymeleaf
+* Spring Web
+* Lombok
+* H2 Database
+* MySQL Driver
+* JdbcTemplate
 

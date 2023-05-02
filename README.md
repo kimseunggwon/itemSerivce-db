@@ -2,6 +2,9 @@
 회원가입을 통한 로그인 및 회원 주문을 하는 게시판 프로젝트 입니다.
 
 ## 개발환경
+* Intellij IDEA Ultimate 
+* Java 11
+* Spring Boot 2.6.5
 
 ## 기술 스택
 

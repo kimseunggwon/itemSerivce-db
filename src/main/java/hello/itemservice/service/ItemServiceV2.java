@@ -47,10 +47,6 @@ public class ItemServiceV2 implements ItemService{
         return itemQueryRepositoryV2.findAll(itemSearch);
     }
 
-
-
-
-
     @Override
     public void delete(Long id) {
 
@@ -60,4 +56,6 @@ public class ItemServiceV2 implements ItemService{
     public List<Item> getItem() {
         return null;
     }
+
+
 }

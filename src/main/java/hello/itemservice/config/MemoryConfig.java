@@ -4,6 +4,7 @@ import hello.itemservice.repository.ItemRepository;
 import hello.itemservice.repository.memory.MemoryItemRepository;
 import hello.itemservice.service.ItemService;
 import hello.itemservice.service.ItemServiceV1;
+import hello.itemservice.service.LoginMemberService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -21,5 +22,16 @@ public class MemoryConfig {
     public ItemRepository itemRepository() {
         return new MemoryItemRepository();
     }
+
+    @Bean
+    public MemoryItemRepository MemoryItemRepository() {
+        return new MemoryItemRepository();
+    }
+    @Bean
+    public LoginMemberService loginMemberService() {
+        return new LoginMemberService(MemoryItemRepository());
+    }
+
+
 
 }

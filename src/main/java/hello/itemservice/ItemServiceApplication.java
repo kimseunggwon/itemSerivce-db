@@ -13,7 +13,9 @@ import org.springframework.context.annotation.Profile;
 //@Import(JpaConfig.class)
 //@Import(SpringDataJapConfig.class)
 //@Import(QuerydslConfig.class)
-@Import(V2Config.class)
+
+//@Import(V2Config.class) => 가장최근  (spring JPA + QUERYDSL)
+@Import(MemoryConfig.class)
 @SpringBootApplication(scanBasePackages = "hello.itemservice.web")
 public class ItemServiceApplication {
 

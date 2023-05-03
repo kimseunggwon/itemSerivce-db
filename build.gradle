@@ -43,7 +43,7 @@ dependencies {
 	testCompileOnly 'org.projectlombok:lombok'
 	testAnnotationProcessor 'org.projectlombok:lombok'
 
-	//JdbcTemplate 추가 -> JPA사용으로 잠시 제거
+	//JdbcTemplate 추가 -> JPA 사용으로 잠시 제거
 	//implementation 'org.springframework.boot:spring-boot-starter-jdbc'
 
 	//H2 데이터베이스 추가

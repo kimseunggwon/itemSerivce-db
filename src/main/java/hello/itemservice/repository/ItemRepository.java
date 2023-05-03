@@ -1,6 +1,5 @@
 package hello.itemservice.repository;
 
-import hello.itemservice.domain.BookInfoVo;
 import hello.itemservice.domain.Item;
 import hello.itemservice.domain.member.Member;
 
